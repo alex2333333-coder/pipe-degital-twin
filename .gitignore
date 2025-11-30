@@ -12,9 +12,10 @@ frontend/*.iml
 frontend/historical_data.json
 
 # 数据库忽略文件
-*.sql
 *.bak
 *.dump
+# 允许database目录下的.sql文件
+!database/*.sql
 
 # 系统文件
 .DS_Store
