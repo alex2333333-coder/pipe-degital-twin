@@ -1,0 +1,39 @@
+# 后端忽略文件
+backend/target/
+backend/.idea/
+backend/startup.log
+backend/*.iml
+
+# 前端忽略文件
+frontend/node_modules/
+frontend/dist/
+frontend/.idea/
+frontend/*.iml
+frontend/historical_data.json
+
+# 数据库忽略文件
+*.sql
+*.bak
+*.dump
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 日志文件
+*.log
+logs/
+
+# 环境配置文件（可选，建议提供示例文件）
+*.properties
+*.env
+*.yml
+
+# 编辑器文件
+.vscode/
+.vs/
+
+# 临时文件
+*.tmp
+*.temp
+.cache/
