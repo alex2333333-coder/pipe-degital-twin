@@ -32,7 +32,7 @@
     
     <!-- 页脚 -->
     <footer v-if="isAuthenticated && !isAuthPage" class="footer">
-      <p>© 2023 Vue3 + SpringBoot 前后端分离项目</p>
+      <p>© 2023 PIPEPro-管道数字孪生平台 | GitHub: <a href="https://github.com/alex2333333-coder/pipe-degital-twin.git" target="_blank" style="color: #3498db; text-decoration: none;">https://github.com/alex2333333-coder/pipe-degital-twin.git</a></p>
     </footer>
   
     <!-- 用户信息弹窗 -->
